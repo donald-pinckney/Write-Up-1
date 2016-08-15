@@ -1,0 +1,20 @@
+For this problem, you need to read in 4 non-negative doubles, and then print on separate lines: their sum, their mean, and their multiplication, and their geometric mean. The geometric mean just takes the multiplcation and raises it to the (in this case) 1/4 power.
+
+For example, if the numbers are 15, 6, 7.5 and 9.1, then:
+sum = 15 + 6 + 7.5 + 9.1 = 37.6
+mean = (5 + 6 + 7.5 + 9.1) / 4 = 9.4
+multiplication = 15 * 6 * 7.5 * 9.1 = 6142.5
+geometric mean = (15 * 6 * 7.5 * 9.1)^(1/4) = 8.85291493609189
+
+Example input:
+15
+6
+7.5
+9.1
+
+Example output:
+37.6
+9.4
+6142.5
+8.85291493609189
+
