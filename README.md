@@ -7,7 +7,8 @@
 1. Download VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 2. Download Vagrant: [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 3. Download the 1678 Vagrant configuration: [https://github.com/frc1678/vagrant-box/archive/master.zip](https://github.com/frc1678/vagrant-box/archive/master.zip), and save it somewhere safe on your computer (you will use this a lot).
-4. Setup the Vagrant virtual machine. Using your terminal / command prompt:
+4. If you are using Windows, you probably need a terminal that you can use to start Vagrant. You can download: [https://git-scm.com/downloads](https://git-scm.com/downloads) to download Git for Windows, which will also include a Bash Terminal. If you are using Mac or Linux already, then just open the Terminal app you already have.
+5. Setup the Vagrant virtual machine. Using your terminal / command prompt:
 
 	```
 	cd path/to/where/you/downloaded/vagrant-box/
@@ -18,7 +19,7 @@ This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 	```
 	vagrant ssh
 	```
-5. Make sure to setup your git name and email:
+6. Make sure to setup your git name and email:
 
 	```
 	git config --global user.name "Your Name"
