@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Swift Dependencies
-sudo apt-get -yq install clang libicu-dev libstdc++6
+sudo apt-get -yq install clang libicu-dev
 
 # Install Swift
 mkdir ~/bin
