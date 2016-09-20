@@ -13,8 +13,8 @@ let multiplication = n1 * n2 * n3 * n4
 let mean = (n1 + n2 + n3 + n4) / 4
 let geometricmean = pow(n1 * n2 * n3 * n4, 1/4)
 
-print (Sum = "\(sum)")
-print (Multiplication = '\(multiplication)")
-print (Mean = "\(mean)")
-print ("Geometric Mean = "\(geometricmean)")
+print ("\(sum)")
+print ("\(multiplication)")
+print ("\(mean)")
+print ("\(geometricmean)")
 
