@@ -2,7 +2,6 @@
 import Foundation
 // This reads in the 4 numbers.
 
-print("Enter 4 positive numbers.")
 let n1 = Double(readLine()!)!
 let n2 = Double(readLine()!)!
 let n3 = Double(readLine()!)!
