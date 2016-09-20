@@ -10,7 +10,7 @@ let n4 = Double(readLine()!)!
 let sum = n1 + n2 + n3 + n4
 let multiplication = n1 * n2 * n3 * n4
 let mean = (n1 + n2 + n3 + n4) / 4
-let geometricmean = pow(n1 * n2 * n3 * n4, 0.25)
+let geometricmean = pow(multiplication, 0.25)
 
 print ("\(sum)")
 print ("\(multiplication)")
