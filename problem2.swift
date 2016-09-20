@@ -5,10 +5,10 @@ let n1 = Double(readLine()!)!
 let n2 = Double(readLine()!)!
 let n3 = Double(readLine()!)!
 let n4 = Double(readLine()!)!
-
+// Find sum, mean, product, and geometric mean
 let sum      = n1 + n2 + n3 + n4
 let mean     = sum / 4
 let product  = n1 * n2 * n3 * n4
 let geometmn = pow(product, 0.25)
-
+// Print previous constants
 print("\(sum)\n\(mean)\n\(product)\n\(geometmn)")
