@@ -13,7 +13,7 @@ let mean = (n1 + n2 + n3 + n4) / 4
 let geometricmean = pow(multiplication, 0.25)
 
 print ("\(sum)")
-print ("\(multiplication)")
 print ("\(mean)")
+print ("\(multiplication)")
 print ("\(geometricmean)")
 
