@@ -5,3 +5,4 @@ let n1 = Double(readLine()!)!
 let n2 = Double(readLine()!)!
 let n3 = Double(readLine()!)!
 let n4 = Double(readLine()!)!
+// write stuff...
